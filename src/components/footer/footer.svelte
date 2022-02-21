@@ -1,11 +1,11 @@
 <script>
   import Address from './address/address.svelte';
   import Light from './assets/light.svg.svelte';
-  import Table from './table/table.svelte';
+  import Desk from './desk/desk.svelte';
 </script>
 
 <footer>
-  <Table />
+  <Desk />
   <Light />
   <Address />
 </footer>

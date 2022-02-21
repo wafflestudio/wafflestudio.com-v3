@@ -1,8 +1,8 @@
-<div class="table-top" />
-<div class="table-leg" />
+<div class="desk-top" />
+<div class="desk-leg" />
 
 <style>
-  div.table-top {
+  div.desk-top {
     position: absolute;
     right: 0;
     bottom: 248px;
@@ -11,7 +11,7 @@
     background: #29151a;
   }
 
-  div.table-leg {
+  div.desk-leg {
     position: absolute;
     right: 374px;
     bottom: 21px;
