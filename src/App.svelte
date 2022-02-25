@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Carousel from './components/carousel/carousel.svelte';
+  import Banner from './components/banner/banner.svelte';
   import Footer from './components/footer/footer.svelte';
 
   export let name: string;
@@ -8,7 +8,7 @@
 <main>
   <h1>Hello {name}!</h1>
   <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-  <Carousel />
+  <Banner />
   <Footer />
 </main>
 
