@@ -2,6 +2,7 @@
   import Banner from './components/banner/banner.svelte';
   import About from './components/description/about/about.svelte';
   import Footer from './components/footer/footer.svelte';
+  import RecruitLink from './components/recruit-link/recruit-link.svelte';
 
   export let name: string;
 </script>
@@ -11,6 +12,7 @@
   <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
   <Banner />
   <About />
+  <RecruitLink />
   <Footer />
 </main>
 
