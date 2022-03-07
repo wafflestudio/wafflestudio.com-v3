@@ -2,6 +2,8 @@
   import Banner from './components/banner/banner.svelte';
   import About from './components/description/about/about.svelte';
   import Member from './components/description/member.svelte';
+  import RecruitLink from './components/recruit-link/recruit-link.svelte';
+  import Organization from './components/organization/organization.svelte';
   import Footer from './components/footer/footer.svelte';
 
   export let name: string;
@@ -13,6 +15,8 @@
   <Banner />
   <About />
   <Member />
+  <RecruitLink />
+  <Organization />
   <Footer />
 </main>
 
