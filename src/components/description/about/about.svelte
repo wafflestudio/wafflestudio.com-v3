@@ -1,4 +1,10 @@
 <section class="about">
+  <div class="circle w-254 t-145 l-145" />
+  <div class="circle w-198 t-443 r-57" />
+  <div class="circle w-129 b-90 r-496" />
+  <div class="circle striped w-298 t-328 l-71" />
+  <div class="circle striped w-420 b-152 r-100" />
+
   <article class="description">
     <h3>#와플스튜디오는 어떤 동아리인가요?</h3>
     <hr />
@@ -73,5 +79,50 @@
     margin: 2em;
     display: block;
     font-size: 150%;
+  }
+
+  .about .circle {
+    background: #fff1cf0d;
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .about .circle.w-254.t-145.l-145 {
+    width: 254px;
+    height: 254px;
+    top: 145px;
+    left: 145px;
+  }
+
+  .about .circle.w-198.t-443.r-57 {
+    width: 198px;
+    height: 198px;
+    top: 443px;
+    right: 57px;
+  }
+
+  .about .circle.w-129.b-90.r-496 {
+    width: 129px;
+    height: 129px;
+    bottom: 90px;
+    right: 496px;
+  }
+
+  .about .circle.striped {
+    background: repeating-linear-gradient(-10deg, #fff1cf0d, #fff1cf0d 6px, #00000000 6px, #00000000 24px);
+  }
+
+  .about .circle.striped.w-298.t-328.l-71 {
+    width: 298px;
+    height: 298px;
+    top: 328px;
+    left: 71px;
+  }
+
+  .about .circle.striped.w-420.b-152.r-100 {
+    width: 420px;
+    height: 420px;
+    bottom: 152px;
+    right: 100px;
   }
 </style>
