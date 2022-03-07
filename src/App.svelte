@@ -1,6 +1,7 @@
 <script lang="ts">
   import Banner from './components/banner/banner.svelte';
   import About from './components/description/about/about.svelte';
+  import Member from './components/description/member.svelte';
   import Footer from './components/footer/footer.svelte';
 
   export let name: string;
@@ -11,6 +12,7 @@
   <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
   <Banner />
   <About />
+  <Member />
   <Footer />
 </main>
 
