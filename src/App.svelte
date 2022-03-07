@@ -5,6 +5,7 @@
   import Organization from './components/organization/organization.svelte';
   import RecruitLink from './components/recruit-link/recruit-link.svelte';
   import Activity from './components/description/activity.svelte';
+  import Schedule from './components/schedule/schedule.svelte';
   import Footer from './components/footer/footer.svelte';
 
   export let name: string;
@@ -19,6 +20,7 @@
   <Organization />
   <RecruitLink />
   <Activity />
+  <Schedule />
   <Footer />
 </main>
 
