@@ -1,8 +1,9 @@
 <script lang="ts">
   import Banner from './components/banner/banner.svelte';
   import About from './components/description/about/about.svelte';
-  import Footer from './components/footer/footer.svelte';
   import RecruitLink from './components/recruit-link/recruit-link.svelte';
+  import Organization from './components/organization/organization.svelte';
+  import Footer from './components/footer/footer.svelte';
 
   export let name: string;
 </script>
@@ -13,6 +14,7 @@
   <Banner />
   <About />
   <RecruitLink />
+  <Organization />
   <Footer />
 </main>
 
