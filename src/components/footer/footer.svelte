@@ -12,7 +12,7 @@
 
 <style>
   footer {
-    width: 100%;
+    width: calc(100% - 63px);
     height: 738px;
     background: #342d29;
     position: relative;
