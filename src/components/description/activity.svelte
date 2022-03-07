@@ -34,7 +34,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    color: #fff1cf;
+    color: #ffffff;
     font-style: normal;
     letter-spacing: -0.05em;
     text-align: center;
