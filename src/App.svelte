@@ -6,13 +6,11 @@
   import RecruitLink from './components/recruit-link/recruit-link.svelte';
   import Activity from './components/description/activity.svelte';
   import Footer from './components/footer/footer.svelte';
-
-  export let name: string;
+  import Cover from './components/cover/cover.svelte';
 </script>
 
 <main>
-  <h1>Hello {name}!</h1>
-  <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+  <Cover />
   <Banner />
   <About />
   <Member />
@@ -23,22 +21,4 @@
 </main>
 
 <style>
-  main {
-    text-align: center;
-    max-width: 240px;
-    margin: 0 auto;
-  }
-
-  h1 {
-    color: #ff3e00;
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 100;
-  }
-
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
-  }
 </style>

@@ -65,3 +65,8 @@ button:not(:disabled):active {
 button:focus {
   border-color: #666;
 }
+
+@font-face {
+  src: url("/fonts/NicoMoji-Regular.ttf");
+  font-family: 'nico-moji-regular';
+}
