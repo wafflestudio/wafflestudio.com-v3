@@ -67,6 +67,6 @@ button:focus {
 }
 
 @font-face {
-  src: url("/fonts/NicoMoji-Regular.ttf");
+  src: url('/fonts/NicoMoji-Regular.ttf');
   font-family: 'nico-moji-regular';
 }
