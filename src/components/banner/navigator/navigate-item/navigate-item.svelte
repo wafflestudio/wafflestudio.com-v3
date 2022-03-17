@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Key } from '../../carousel';
+  import type { Key } from '../../banner';
   import LightOff from '../../assets/light-off.svg.svelte';
   import LightOn from '../../assets/light-on.svg.svelte';
 

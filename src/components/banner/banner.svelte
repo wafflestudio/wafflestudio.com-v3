@@ -1,6 +1,6 @@
 <script lang="ts">
   import Navigator from './navigator/navigator.svelte';
-  import type { Key } from './carousel';
+  import type { Key } from './banner';
 
   let current: Key = 'wafflestudio';
 
