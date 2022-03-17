@@ -7,23 +7,23 @@
 <style>
   div.tablecloth {
     position: absolute;
-    width: 1200px;
-    height: 500px;
+    width: 1000px;
+    height: 400px;
     box-sizing: border-box;
-    top: calc(50vh - 240px);
-    left: calc(50vw - 600px);
+    top: calc(50vh - 210px);
+    left: calc(50vw - 500px);
     background-color: #986259;
-    padding-top: 130px;
+    padding-top: 100px;
   }
 
   div.tablecloth > div {
-    height: 240px;
+    height: 200px;
     width: 100%;
     background-color: #f4987b;
   }
 
   img {
-    height: 600px;
+    height: 500px;
     position: absolute;
     top: -30px;
   }
