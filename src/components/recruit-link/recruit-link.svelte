@@ -22,6 +22,7 @@
     justify-content: center;
     background: linear-gradient(0deg, #fff1cf, #fff1cf), linear-gradient(90deg, #ed8573 0%, #f0975e 100%);
     position: relative;
+    overflow: hidden;
   }
 
   p {
