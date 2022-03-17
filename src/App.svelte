@@ -2,6 +2,7 @@
   import Banner from './components/banner/banner.svelte';
   import About from './components/description/about/about.svelte';
   import Member from './components/description/member.svelte';
+  import MainActivity from './components/activity/activity.svelte';
   import Organization from './components/organization/organization.svelte';
   import RecruitLink from './components/recruit-link/recruit-link.svelte';
   import Activity from './components/description/activity.svelte';
@@ -16,6 +17,7 @@
   <About />
   <Member />
   <Organization />
+  <MainActivity />
   <RecruitLink />
   <Activity />
   <Schedule />
