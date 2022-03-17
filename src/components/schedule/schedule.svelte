@@ -1,9 +1,11 @@
 <script>
   import Background from './background/background.svelte';
+  import Calendar from './calendar/calendar.svelte';
 </script>
 
 <section>
   <Background />
+  <Calendar />
 </section>
 
 <style>
