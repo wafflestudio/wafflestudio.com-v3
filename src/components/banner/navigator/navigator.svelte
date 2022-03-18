@@ -1,6 +1,6 @@
 <script lang="ts">
   import NavigateItem from './navigate-item/navigate-item.svelte';
-  import type { Key } from '../carousel';
+  import type { Key } from '../banner';
 
   const links: { key: Key; label: string }[] = [
     { key: 'wafflestudio', label: '와플스튜디오' },
