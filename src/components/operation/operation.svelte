@@ -37,6 +37,10 @@
       </div>
     </div>
   </div>
+  <div class="images">
+    <img src="/assets/main/slack.png" alt="" class="t-0" />
+    <img src="/assets/main/github.png" alt="" class="t-156" />
+  </div>
 </section>
 
 <style>
@@ -201,5 +205,26 @@
 
   .operation .phone .talk .contents .speech-bubble p strong {
     font-weight: 500;
+  }
+
+  .operation .images {
+    position: absolute;
+    height: 870px;
+    right: 5%;
+    bottom: 0;
+    width: 35%;
+  }
+
+  .operation .images img {
+    width: 100%;
+  }
+  .operation .images img.t-0 {
+    position: absolute;
+    top: 0;
+  }
+
+  .operation .images img.t-156 {
+    position: absolute;
+    top: 156px;
   }
 </style>
