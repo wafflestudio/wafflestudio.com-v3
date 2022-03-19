@@ -9,15 +9,26 @@
           <p>오 !</p>
         </div>
         <div class="speech-bubble right">
-          <p>와플 스튜디오 노션에 초대받으면 노션을 이용해 팀 활동</p>
+          <p>
+            와플 스튜디오 노션에 초대받으면 <strong> 노션 </strong>
+            을 이용해 팀 활동
+          </p>
           <p>내용을 정리하고 진행할 수 있어요</p>
         </div>
         <div class="speech-bubble right">
-          <p>새 프로젝트의 개발을 시작하면 와플 스튜디오 깃허브에서</p>
+          <p>
+            새 프로젝트의 개발을 시작하면 와플 스튜디오
+            <strong> 깃허브 </strong>
+            에서
+          </p>
           <p>새 레포지토리의 어드민 권한을 받을 수 있어요!</p>
         </div>
         <div class="speech-bubble right">
-          <p>와플스튜디오 정회원이 되면 슬랙에 초대 받게돼요!</p>
+          <p>
+            와플스튜디오 정회원이 되면
+            <strong> 슬랙 </strong>
+            에 초대 받게돼요!
+          </p>
           <p>슬랙에는 주제별로 다양한 채널이 존재한답니다.</p>
         </div>
         <div class="speech-bubble left">
@@ -186,5 +197,9 @@
     letter-spacing: 0em;
     text-align: left;
     color: #ffffff;
+  }
+
+  .operation .phone .talk .contents .speech-bubble p strong {
+    font-weight: 500;
   }
 </style>
