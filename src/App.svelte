@@ -9,6 +9,7 @@
   import Schedule from './components/schedule/schedule.svelte';
   import Footer from './components/footer/footer.svelte';
   import Cover from './components/cover/cover.svelte';
+  import Operation from './components/operation/operation.svelte';
 </script>
 
 <main>
@@ -21,6 +22,7 @@
   <RecruitLink />
   <Activity />
   <Schedule />
+  <Operation />
   <Footer />
 </main>
 
