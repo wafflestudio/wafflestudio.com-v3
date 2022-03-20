@@ -13,7 +13,7 @@
 </script>
 
 <main>
-  <Cover />
+  <Cover current="" />
   <Banner />
   <About />
   <Member />

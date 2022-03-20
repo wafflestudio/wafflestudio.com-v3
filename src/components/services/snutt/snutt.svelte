@@ -1,5 +1,5 @@
 <script>
-  import ProjectWrapper from '../common/project-wrapper/project-wrapper.svelte';
+  import ProjectWrapper from '../common/service-wrapper/service-wrapper.svelte';
   import Overview from '../common/overview/overview.svelte';
   import Carousel from '../common/carousel/carousel.svelte';
 </script>

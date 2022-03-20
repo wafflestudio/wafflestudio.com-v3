@@ -26,7 +26,7 @@
 </script>
 
 <main class="wrapper" on:scroll={handleScroll}>
-  <Cover />
+  <Cover current="services" />
   <Navigator {current} items={projectItems} />
   <Snutt />
   <Siksha />

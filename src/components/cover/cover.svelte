@@ -1,3 +1,7 @@
+<script lang="ts">
+  export let current: '' | 'services' | 'members';
+</script>
+
 <section class="main">
   <h1>
     <a href="/">
@@ -15,13 +19,13 @@
 
   <nav>
     <ul>
-      <li class="active">
+      <li class:active={current === ''}>
         <a href="/">소개</a>
       </li>
-      <li>
+      <li class:active={current === 'services'}>
         <a href="/services">서비스</a>
       </li>
-      <li>
+      <li class:active={current === 'members'}>
         <a href="/members">멤버</a>
       </li>
     </ul>
