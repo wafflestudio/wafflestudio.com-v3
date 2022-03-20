@@ -1,1 +1,5 @@
-<main>프로젝트</main>
+<script>
+  import Project from '../components/project/project.svelte';
+</script>
+
+<Project />
