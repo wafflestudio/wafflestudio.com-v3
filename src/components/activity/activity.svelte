@@ -127,7 +127,6 @@
   .main-activity ul.activity-items li.item {
     position: relative;
 
-    font-family: 'KCC-eunyoung';
     font-style: normal;
     font-size: 70px;
     font-weight: 400;
@@ -156,6 +155,8 @@
   .main-activity ul.activity-items li.item p {
     display: inline-block;
     width: fit-content;
+
+    font-family: 'KCC-eunyoung' !important;
   }
 
   .main-activity ul.activity-items li.item.active p {
