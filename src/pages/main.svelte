@@ -10,12 +10,14 @@
   import Footer from '../components/footer/footer.svelte';
   import Cover from '../components/cover/cover.svelte';
   import Operation from '../components/operation/operation.svelte';
+  import Projects from '../components/projects/projects.svelte';
 </script>
 
 <main>
   <Cover current="" />
   <Banner />
   <About />
+  <Projects />
   <Member />
   <Organization />
   <MainActivity />
