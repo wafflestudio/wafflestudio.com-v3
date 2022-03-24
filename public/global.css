@@ -65,3 +65,30 @@ button:not(:disabled):active {
 button:focus {
   border-color: #666;
 }
+
+@font-face {
+  src: url('/fonts/NicoMoji-Regular.ttf');
+  font-family: 'nico-moji-regular';
+}
+
+@font-face {
+  font-family: 'KCC-eunyoung';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GmarketSans';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'GmarketSans';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: 500;
+}
+
+main * {
+  font-family: 'GmarketSans';
+}
