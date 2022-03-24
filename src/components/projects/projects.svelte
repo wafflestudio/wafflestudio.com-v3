@@ -4,6 +4,12 @@
 
 <section id="projects">
   <h3 class="title">출시된 프로젝트</h3>
+  <div class="circles">
+    <div class="circle" />
+    <div class="circle" />
+    <div class="circle" />
+    <div class="circle" />
+  </div>
 
   <div class="line-left" />
   <div class="line-right" />
@@ -68,6 +74,21 @@
     height: 100vh;
     background: #342d29;
     position: relative;
+  }
+
+  #projects .circles {
+    position: absolute;
+    top: 130px;
+    left: -29px;
+  }
+
+  #projects .circles .circle {
+    display: inline-block;
+    margin: 0 -20px;
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background: rgba(255, 241, 207, 0.05);
   }
 
   #projects h3.title {
