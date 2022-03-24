@@ -5,6 +5,9 @@
 <section id="projects">
   <h3 class="title">출시된 프로젝트</h3>
 
+  <div class="line-left" />
+  <div class="line-right" />
+
   <div class="waffle-studio">
     <span>waffle</span>
     <span>studio</span>
@@ -80,6 +83,24 @@
     left: 252px;
   }
 
+  #projects div.line-left {
+    border: 2px solid rgba(255, 241, 207, 0.2);
+    transform: rotate(-10deg);
+    position: absolute;
+    top: 50%;
+    left: -10vw;
+    width: 20vw;
+  }
+
+  #projects div.line-right {
+    border: 2px solid rgba(255, 241, 207, 0.2);
+    transform: rotate(-10deg);
+    position: absolute;
+    top: 27%;
+    right: -10vw;
+    width: 20vw;
+  }
+
   #projects div.waffle-studio {
     width: 100%;
     height: 200px;
@@ -101,7 +122,7 @@
 
   #projects div.waffle-studio span {
     font-family: Lobster;
-    margin: 90px;
+    margin: 130px;
   }
 
   #projects div.wrapper {
