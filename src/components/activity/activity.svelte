@@ -134,6 +134,8 @@
     letter-spacing: -0.05em;
     text-align: center;
     color: #fff1cf99;
+
+    cursor: default;
   }
 
   .main-activity ul.activity-items li.item.r-60 {
