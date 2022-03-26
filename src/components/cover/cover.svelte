@@ -49,6 +49,7 @@
   .main {
     height: 100vh;
     position: relative;
+    overflow: hidden;
   }
 
   .main a span {

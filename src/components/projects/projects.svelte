@@ -74,6 +74,7 @@
     height: 100vh;
     background: #342d29;
     position: relative;
+    overflow: hidden;
   }
 
   #projects .circles {
