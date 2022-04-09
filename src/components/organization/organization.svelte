@@ -74,7 +74,7 @@
   }
 
   dt {
-    width: 150px;
+    width: 130px;
     height: 100px;
     line-height: 100px;
     background-color: #196164;
@@ -83,6 +83,7 @@
     font-size: 18px;
     letter-spacing: -0.05em;
     color: #ffffff;
+    padding-inline-start: 20px;
   }
 
   dt:first-of-type,
