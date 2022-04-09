@@ -16,15 +16,15 @@
     <ul>
       <li class="mail-link-item">
         <h4 class="label">총괄 및 문의</h4>
-        <p data-clipboard-text="master@wafflestudio.com">master@wafflestudio.com</p>
+        <p class="email" data-clipboard-text="master@wafflestudio.com">master@wafflestudio.com</p>
       </li>
       <li class="mail-link-item">
         <h4 class="label">리크루팅 지원</h4>
-        <p data-clipboard-text="recruit@wafflestudio.com">recruit@wafflestudio.com</p>
+        <p class="email" data-clipboard-text="recruit@wafflestudio.com">recruit@wafflestudio.com</p>
       </li>
       <li class="mail-link-item">
         <h4 class="label">와플 동아리장</h4>
-        <p data-clipboard-text="woohm404@wafflestudio.com">woohm404@wafflestudio.com</p>
+        <p class="email" data-clipboard-text="woohm404@wafflestudio.com">woohm404@wafflestudio.com</p>
       </li>
     </ul>
   </div>
@@ -58,10 +58,11 @@
   li.mail-link-item {
     display: flex;
     align-items: center;
+    margin: 4px 0;
   }
 
   h4.label {
-    width: 120px;
+    width: 140px;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
@@ -69,11 +70,12 @@
     margin: 0;
   }
 
-  p {
+  p.email {
     font-weight: 300;
     font-size: 24px;
     line-height: 27px;
     color: #fff1cf;
     margin: 0;
+    cursor: pointer;
   }
 </style>
