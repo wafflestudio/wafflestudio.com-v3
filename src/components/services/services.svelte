@@ -7,6 +7,7 @@
   import Siksha from './siksha/siksha.svelte';
   import Snuboard from './snuboard/snuboard.svelte';
   import Snutt from './snutt/snutt.svelte';
+  import News from './news/news.svelte';
 
   import { throttle } from 'lodash';
 
@@ -33,6 +34,7 @@
   <Snuboard />
   <Guam />
   <Gatgu />
+  <News />
 </main>
 
 <style>
